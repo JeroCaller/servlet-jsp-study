@@ -6,3 +6,4 @@ OS : Windows 10
 JDK version : 21   
 Web Server : Apache Tomcat v9.0   
 HTML version : 5   
+Dynamic web module version : 2.5   
