@@ -1,0 +1,47 @@
+@charset "UTF-8";
+#container {
+    width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    width: 20rem;
+    margin: 0 auto;
+}
+
+#container img {
+    margin: 2rem;
+}
+
+form fieldset {
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "lid iid"
+        "lpw pw"
+        "sbm sbm"
+    ;
+    gap: 1rem 1rem;
+}
+
+label[for="id"] {
+    grid-area: lid;
+}
+
+label[for="password"] {
+    grid-area: lpw;
+}
+
+input[id="id"] {
+    grid-area: iid;
+}
+
+input[id="password"] {
+    grid-area: pw;
+}
+
+input[type="submit"] {
+    grid-area: sbm;
+}
