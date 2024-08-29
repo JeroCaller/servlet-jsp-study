@@ -33,5 +33,23 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("=== POST 요청을 서블릿에서 처리하였습니다. ===");  // 변경된 코드.
 	}
+	
+	//
+	@Override
+	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
+		System.out.println("==== service() 메서드를 호출하여 요청을 처리하였습니다. =====");
+	}
+
+	@Override
+	public void destroy() {
+		System.out.println("==== 서블릿 객체를 삭제하였습니다. ====");
+	}
+
+	@Override 
+	public void init() throws ServletException {
+		System.out.println("==== 서블릿 객체의 맴버 변수가 초기화되었습니다. ====");
+	}
+	
+	
 
 }
