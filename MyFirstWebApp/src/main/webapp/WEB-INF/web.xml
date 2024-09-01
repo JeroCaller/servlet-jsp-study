@@ -19,4 +19,14 @@
     <servlet-name>processLogin</servlet-name>
     <url-pattern>/processLogin</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>signUp</display-name>
+    <servlet-name>signUp</servlet-name>
+    <servlet-class>com.cola.web.user.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signUp</servlet-name>
+    <url-pattern>/signUp.do</url-pattern>
+  </servlet-mapping>
 </web-app>

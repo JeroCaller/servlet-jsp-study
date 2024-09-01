@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#container {
+	width: 30em;
+	margin: 0 auto;
+	padding: 1em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+form > ul {
+	list-style: none;
+}
+
+form > ul > li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	margin-bottom: 1em;
+}
