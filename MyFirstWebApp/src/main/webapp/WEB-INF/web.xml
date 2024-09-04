@@ -29,4 +29,26 @@
     <servlet-name>signUp</servlet-name>
     <url-pattern>/signUp.do</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CookieServlet</display-name>
+    <servlet-name>CookieServlet</servlet-name>
+    <servlet-class>com.cola.web.test.CookieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieServlet</servlet-name>
+    <url-pattern>/CookieServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!--
+  <servlet>
+    <description></description>
+    <display-name>session</display-name>
+    <servlet-name>session</servlet-name>
+    <servlet-class>com.cola.web.test.SessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>session</servlet-name>
+    <url-pattern>/session.do</url-pattern>
+  </servlet-mapping> -->
 </web-app>
