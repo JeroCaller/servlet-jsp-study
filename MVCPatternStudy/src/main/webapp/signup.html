@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원 가입</title>
+<link rel="stylesheet" href="/MVCPatternStudy/css/style.css">
+</head>
+<body>
+    <h1>회원 가입</h1>
+    <!-- <form method="post" action="/MVCPatternStudy/signupProc.jsp">  -->
+    <form method="post" action="/MVCPatternStudy/signupProc.do">
+        <ul>
+            <li>
+                사용할 아이디 : <input type="text" name="id" required="required" /> 
+            </li>
+            <li>
+                사용할 패스워드 : <input type="password" name="pw" required="required" />
+            </li>
+        </ul>
+        <button type="submit">회원가입하기</button>
+    </form>
+</body>
+</html>
